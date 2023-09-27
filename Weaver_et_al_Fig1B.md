@@ -30,7 +30,7 @@ The raw data underlying Figure 1 is openly available as a .csv file in Github. T
 We'll pull this raw data into a variable called `Fig1_data` through the use of the `read.csv` function.
 
 ```
-Fig1B_data<-read.csv(text=getURL("https://raw.githubusercontent.com/surtlab/Weaver_et_al_2023/Fig1B_data.csv)"))
+Fig1B_data<-read.csv(text=getURL("https://raw.githubusercontent.com/surtlab/Weaver_et_al_2023/main/Fig1B_data.csv"))
 ```
 
 
